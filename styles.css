@@ -28,13 +28,13 @@ div {
     text-align: center;    
 }
 
-label {
+.angle-label {
     display: block;
     font-size: 1.5rem;
     padding: 1rem;
 }
 
-input {
+.angle-input {
     display: block;
     margin: auto;
     width: 50%;
@@ -51,4 +51,14 @@ button {
     border-style: none;
     background-color: var(--light-color);
     color: var(--text-color);
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.quiz-label {
+    font-size: 1.5rem;
+    padding: 1rem;
 }
