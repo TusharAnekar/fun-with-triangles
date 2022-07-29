@@ -15,6 +15,5 @@ checkHypotenues.addEventListener ("click", () => {
         
         output.innerText = "The length of the hypotenuse is "+hypotenues+"cm";
     }
-    console.log(sideA.value, sideB.value)
     
 });
