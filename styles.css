@@ -9,6 +9,7 @@
 
 body{
     background-color: var(--dark-color);
+    margin: 0;
 }
 
 nav {
