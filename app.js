@@ -32,7 +32,13 @@ function validateAngles () {
             output.innerText = "Please enter all the values in angles."
             flag = 1;
             break;
-        } else {
+        }  
+        else if (allAngles[j].value === 0 || allAngles[j].value < 1) {
+            output.innerText = "Please enter values greater than 0."
+            flag = 1;
+            break;
+        }
+        else {
             flag = 0;
         }
     }
