@@ -5,8 +5,8 @@ const output = document.querySelector("#output")
 
 checkHypotenues.addEventListener ("click", () => {
     
-    if (sideA.value < 0 || sideB.value < 0) {
-        output.innerText = "Please enter positive values in both side A and B."
+    if (sideA.value <= 0 || sideB.value <= 0) {
+        output.innerText = "Please enter values greater than 0 in both side A and B."
     } else if (sideA.value === "" || sideB.value === "") {
         output.innerText = "Please enter values in both sides A and B"
     } else {
